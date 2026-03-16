@@ -1,0 +1,11 @@
+# Executáveis (Binários)
+inline-assembly-sum
+a.out
+*.o
+*.out
+
+# Pastas de Debug/Build do VS Code
+.vscode/
+build/
+bin/
+obj/
