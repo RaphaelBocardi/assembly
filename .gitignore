@@ -1,7 +1,14 @@
-# Executáveis (Binários)
+# Ignorar todos os executáveis (arquivos sem extensão no Linux)
+# Como no Linux binários não têm .exe, o ideal é listar os nomes ou padrões:
+nasm-system-exit
 inline-assembly-sum
-a.out
+nasm-hello-world
+
+# Ignorar arquivos de objeto
 *.o
+
+# Ignorar outros binários comuns
+a.out
 *.out
 
 # Pastas de Debug/Build do VS Code
